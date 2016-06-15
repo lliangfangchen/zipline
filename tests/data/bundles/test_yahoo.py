@@ -201,4 +201,5 @@ class YahooBundleTestCase(WithResponses, ZiplineTestCase):
                 adjustments,
                 expected,
                 msg=column,
+                decimal=4,
             )
